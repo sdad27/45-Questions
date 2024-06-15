@@ -4,3 +4,5 @@ let guest : string[] = ['saeed','ali','khizar'];
 for(let i = 0; i < guest.length; i++){
     console.log(`Hello Dear \n${guest[i]}, would you like to join us for a dinner \nTank you \n`);
 }
+
+export{guest};
